@@ -1,0 +1,66 @@
+.containerSearch form{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.containerSearch input[type="text"]{
+    margin-top: 30px;
+    width:70%;
+    height: 40px;
+    padding: 10px;
+}
+.containerSearch button{
+    margin-top: 30px;
+    margin-left: 10px;
+    height: 40px;
+    width: 80px;
+}
+
+.SearchResult{
+    width: 70%;
+    margin: auto;
+}
+
+.DisplayBooks{
+    height: 400px;
+    text-align: center;
+    margin-top: 20px;
+}
+.EmptyBooks{
+        margin-top: 100px;
+        text-align: center;
+        color: #d0d0d0;
+}
+.Bars{
+    text-align: center;
+    margin-top: 30px ;
+    color: #6d76f7;
+    font-size: .9em;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.Bars div {
+    cursor: pointer;
+}
+
+.sort{
+    position: absolute;
+    margin-top: 20px;
+    box-shadow: 0 4px 8px 0 rgba(206, 206, 206, 0.2), 0 6px 20px 0 rgba(209, 209, 209, 0.19);
+    background: #f5f5f5;
+    padding: 10px;
+    border: 1px solid #d0d0d0;
+    font-size: .9em;
+}
+.Bars ul li{
+    cursor: pointer;
+    text-align: left;
+    padding: 5px 0;
+    list-style: none;
+    color: #000;
+}
+.Bars li:hover{
+    text-decoration: underline;
+}

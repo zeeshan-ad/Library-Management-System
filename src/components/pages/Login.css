@@ -1,0 +1,59 @@
+.FormHeader{
+    padding: 10px 10px;
+}
+.FormHeader p{
+    padding-top: 5px;
+    font-size: .9em;
+}
+.LoginForm{
+    background: #fff;
+    margin-top: 20px;
+    border: 1px solid #d0d0d0;
+    padding: 20px 40px 80px 40px;
+    box-shadow: 0 4px 8px 0 rgba(206, 206, 206, 0.2), 0 6px 20px 0 rgba(209, 209, 209, 0.19);
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+.LoginForm form input{
+    border: none;
+    padding: 5px 15px;
+    margin-top: 15px;
+    display: block;
+    width: 300px;
+    height: 40px;
+}
+
+.LoginForm input[type="checkbox"] {
+    position: absolute;
+    margin-top: 15px;
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    border: 1px solid #000;
+    cursor: pointer;
+}
+.LoginForm span{
+    position: absolute;
+    margin-top: 10px;
+    margin-left: 20px;
+}
+.LoginForm input[type="submit"] {
+    background: #6d76f7;
+    color: #fff;
+}
+
+.LoginForm input[type="submit"]:hover, .LoginForm input[type="submit"]:focus {
+    background: #5862ec;
+    color: #fff;
+    cursor: pointer;
+}
+
+.LoginForm form input[type="email"], input[type="password"]{
+    background: #f1f1ff;
+}
+
+.LoginForm form input[type="email"]:focus, input[type="password"]:focus{
+    outline: 1px solid #6d76f7;
+}

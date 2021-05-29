@@ -1,0 +1,36 @@
+.container{
+    margin-top: 3%;
+}
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    width: 250px;
+    margin: auto;
+  }
+  
+  .card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  }
+  
+  .info {
+    padding: 7px 16px;
+  }
+
+  .info p{
+      font-size: .9em;
+      padding: 2px 0;
+  }
+  .info h5{
+      font-size: .8em;
+      padding: 2px 0;
+      color: #c0c0c0;
+  }
+  .head{
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+  }
+  .head i{
+      cursor: pointer;
+      color: #c0c0c0;
+  }
