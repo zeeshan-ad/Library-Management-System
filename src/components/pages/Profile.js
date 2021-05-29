@@ -7,7 +7,7 @@ function Profile() {
     const email = "zeeshanahmed959@gmail.com";
     const number = 7059869677;
     return (
-        <div className="container">
+        <div className="profile-card">
         <div className="card">
         <img src="https://www.w3schools.com/howto/img_avatar.png" alt="Avatar" width="250"/>
         <div className="info">
