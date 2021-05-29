@@ -19,7 +19,7 @@ function App() {
                 <Route path='/' exact component={Login}/>
                 <Route path='/Book:id' exact  component={Book}/>
                 <Route path='/MyBooks' exact component={MyBooks}/>
-                <Route path='/EditProfile' exact component={EditProfile}/>
+                <Route path='/EditProfile:name:email:number' exact component={EditProfile}/>
                 <Route path='/Profile' exact component={Profile}/>
                 <Route path='/LendBook:id' exact component={LendBook}/>
                 <Route path='/Wallet' exact component={Wallet}/>
